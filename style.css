@@ -1,4 +1,42 @@
-*{
-    margin: 0;
-    padding: 0;
+/*usual stuffs*/
+* {
+  font-family: Lato;
+  margin: 0;
+  padding: 0;
+}
+.btn {
+  border-radius: 8px;
+  background: #e55473;
+  border: none;
+  color: white;
+  padding: 20px 35px;
+  font-size: 18px;
+}
+/* for header */
+.banner-container {
+  display: flex;
+  background-color: #E554731A;
+  height: 80vh;
+}
+.banner-info {
+  margin-left: 240px;
+  margin-top: 197px;
+}
+.banner-image {
+    margin-top: 50px;
+    margin-right: 240px;
+}
+.title-1 {
+    color: #272727;
+    font-size: 80px;
+    font-weight: 800px;
+}
+.banner-description {
+
+    width: 50%;
+  margin-top: 34px;
+  margin-bottom: 34px;
+  color: #27272799;
+  font-size: 20px;
+  font-weight: 400;
 }
