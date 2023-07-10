@@ -35,7 +35,6 @@
   color: #272727;
   font-size: 80px;
   font-weight: 800;
-  
 }
 
 .banner-description {
@@ -134,7 +133,7 @@
   text-align: center;
   align-items: center;
   justify-content: space-around;
-  padding:100px 50px;
+  padding: 100px 50px;
 }
 .deal-title {
   color: #272727;
@@ -145,9 +144,32 @@
   color: #e55473;
 }
 .deal-description {
-    margin-top: 24px;
+  margin-top: 24px;
   color: rgba(39, 39, 39, 0.6);
   text-align: center;
   font-size: 18px;
   margin-bottom: 24px;
+}
+/* instagram styles */
+.insta-container{
+    margin-top: 128px;
+}
+.insta-info {
+  text-align: center;
+}
+.insta-title {
+  color: #272727;
+  margin: 24px;
+  font-size: 40px;
+}
+.insta-description {
+  color: rgba(39, 39, 39, 0.6);
+  font-size: 24px;
+  margin-bottom: 48px;
+}
+.insta-images {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 24px;
 }
