@@ -1,8 +1,11 @@
 /* Global Styles */
 * {
   font-family: Lato;
-  margin: 0;
-  padding: 0;
+  margin: 0px;
+  padding: 0px;
+}
+body {
+  overflow-x: hidden;
 }
 
 .btn {
@@ -12,6 +15,11 @@
   color: white;
   padding: 20px 35px;
   font-size: 18px;
+}
+.btn:hover {
+  color: #e55473;
+  background: transparent;
+  border: #e55473 1px solid;
 }
 
 /* Header Styles */
@@ -39,8 +47,8 @@
 
 .banner-description {
   width: 50%;
-  margin-top: 34px;
-  margin-bottom: 34px;
+  margin-top: 15px;
+  margin-bottom: 15px;
   color: #27272799;
   font-size: 20px;
   font-weight: 400;
@@ -81,7 +89,6 @@
   font-weight: 700;
   text-decoration-line: underline;
 }
-
 .image1 {
   border-radius: 300px 300px 0px 0px;
   background-color: rgba(167, 33, 98, 0.15);
@@ -100,7 +107,7 @@
   border-radius: 300px 300px 0px 0px;
   background: rgba(71, 125, 17, 0.15);
   display: inline-block;
-  padding: 79px 75px 0px 75px;
+  padding: 80px 75px 0px 75px;
 }
 
 .image-info-container {
@@ -200,17 +207,46 @@
   font-size: 18px;
 }
 .latest-deals-email {
-    border-radius: 8px;
-    background: #fff;
-    width: 700px;
-    height: 64px;
-    border: none;
-    padding-left: 30px;
-  }
-  .email-btn{
-    margin-top: 24px;
-    align-items: center;
-    justify-content: space-around;
-    display: flex;
-  }
-  
+  border-radius: 8px;
+  background: #fff;
+  width: 700px;
+  height: 64px;
+  border: none;
+  padding-left: 30px;
+}
+.email-btn {
+  margin-top: 24px;
+  align-items: center;
+  justify-content: space-around;
+  display: flex;
+}
+/* footer styles */
+footer {
+  background-color: #111010;
+  width: 1922px;
+  height: 400px;
+  text-align: center;
+  align-items: center;
+}
+.footer-container {
+  padding-top: 128px;
+}
+.footer-title {
+  color: #e55473;
+  font-size: 48px;
+}
+.footer-description {
+  color: rgba(255, 255, 255, 0.9);
+  text-align: center;
+  font-size: 18px;
+  margin-top: 24px;
+  margin-bottom: 32px;
+}
+.footer-small {
+  color: rgba(255, 255, 255, 0.4);
+  text-align: center;
+  font-size: 16px;
+}
+.white-shop {
+  color: #ffffff;
+}
